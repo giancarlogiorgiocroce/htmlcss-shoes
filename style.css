@@ -3,3 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.contenitore{
+    position: relative;
+    height: 100vh;
+}
+
+.contenitore.rosso{
+    background-color: red;
+}
+
+.contenitore.verde{
+    background-color: green;
+}
+
+.verde{
+    color: green;
+}
+
+.contenitore.giallo{
+    background-color: yellow;
+}
+
+.giallo{
+    color: yellow;
+}
+
+.centramento{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+}
