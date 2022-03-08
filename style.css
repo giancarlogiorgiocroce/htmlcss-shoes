@@ -1,9 +1,18 @@
+/* GENERAL */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* /GENERAL */
 
+
+/* BOTTONI */
+
+/* /BOTTONI */
+
+
+/* CONTENITORE */
 .contenitore{
     position: relative;
     height: 100vh;
@@ -17,12 +26,12 @@
     background-color: green;
 }
 
-.verde{
-    color: green;
-}
-
 .contenitore.giallo{
     background-color: yellow;
+}
+
+.verde{
+    color: green;
 }
 
 .giallo{
@@ -34,7 +43,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-bottom: 100px;
 }
 
 h1{
@@ -43,3 +51,4 @@ h1{
     font-size: 50px;
     font-weight: 1000;
 }
+/* /CONTENITORE */
